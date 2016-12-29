@@ -1,5 +1,7 @@
 <h1>Listing articles</h1>
- 
+<hr />
+<%= link_to 'New Article', new_article_path %> 
+<hr />
 <table>
   <tr>
     <th>Title</th>
@@ -14,3 +16,5 @@
     </tr>
   <% end %>
 </table>
+<hr />
+<%= link_to 'Back', articles_path %>
